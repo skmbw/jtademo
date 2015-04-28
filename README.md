@@ -1,0 +1,2 @@
+# jtademo
+基于btm实现的jta对两个mysql数据源的demo项目
