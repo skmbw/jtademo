@@ -28,7 +28,7 @@ public class UserAction {
 	private MemberService memberServiceImpl;
 	
 	@RequestMapping("/save")
-	private String save() {
+	public String save() {
 		User user = new User();
 		user.setName("userName1");
 		user.setCreateDate(new Date());

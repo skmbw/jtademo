@@ -22,7 +22,7 @@ public class MemberAction {
 	private UserService userServiceImpl;
 	
 	@RequestMapping("/save")
-	private String save() {
+	public String save() {
 		Member member = new Member();
 		member.setCreateDate(new Date());
 		member.setName("memberName2");
